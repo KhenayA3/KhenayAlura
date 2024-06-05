@@ -131,3 +131,8 @@ function calculaChanceDeErrar() {
     }
   }
 }
+function bolinhaNaoFicaPresa(){
+  if (XBolinha - raio < 0){
+  XBolinha = 23
+  }
+}
